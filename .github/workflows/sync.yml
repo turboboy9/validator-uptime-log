@@ -4,7 +4,7 @@ on:
     paths:
       - '.github/workflows/**'
   schedule:
-    - cron: '41 18 * * 1,3,7'
+    - cron: '41 18 * * 1,3,0'
   workflow_dispatch:
 permissions:
   contents: write
